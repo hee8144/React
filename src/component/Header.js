@@ -1,9 +1,7 @@
-function Header(props) {
-  return (
-    <>
-      <h2>{props.title}</h2>
-    </>
-  );
+function Header(props){
+    return (<>
+        <h2>{props.title}</h2>
+    </>)
 }
 
 export default Header;
